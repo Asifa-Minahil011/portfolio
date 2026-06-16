@@ -1,1 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Asifa Minahil | Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
 
+  <header>
+    <nav class="navbar">
+      <div class="logo">Asifa Minahil</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1>Asifa Minahil</h1>
+        <h2>Full Stack Developer</h2>
+        <p class="hero-bio">
+         I'm a software engineering student passionate about software development and problem-solving. I enjoy building web applications, games, and data structure projects while continuously learning new technologies platforms.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-secondary">Hire Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-image">
+          <div class="photo-placeholder">
+            <i class="fas fa-user"></i>
+            <p>Asifa Minahil</p>
+          </div>
+        </div>
+        <div class="about-text">
+          <h3>Who am I?</h3>
+          <p>
+            I'm Asifa Minahil, a Full Stack Developer and Software Engineering student based in Islamabad, Pakistan.
+            I have hands-on experience building projects across multiple languages including C++, Java,
+            Assembly, and JavaScript — ranging from console games to real-time systems.
+          </p>
+          <p>
+            I thrive on solving complex problems with clean, well-structured code.
+            Currently training at DecodeLabs, I'm sharpening my frontend skills and
+            building a portfolio that reflects both my technical depth and creativity.
+          </p>
+          <a href="#contact" class="btn-primary">Let's Talk</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2 class="section-title">My Projects</h2>
+      <p class="section-subtitle">Things I've designed, built, and shipped</p>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-icon"><i class="fas fa-layer-group"></i></div>
+          <h3>UNO Card Game</h3>
+          <p>Console-based UNO game using OOP concepts — classes, inheritance, and encapsulation — with modular code, input validation, and smooth turn-based flow.</p>
+          <div class="project-tags">
+            <span class="tag">C++</span>
+            <span class="tag">OOP</span>
+          </div>
+          <a href="https://github.com/Asifa-Minahil011/DecodeLabs-Internship" target="_blank" class="btn-outline">View on GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon"><i class="fas fa-square-parking"></i></div>
+          <h3>Smart Parking System</h3>
+          <p>Java system for checking parking availability, reserving slots, and managing vehicle entries/exits in real time with a focus on efficiency and user convenience.</p>
+          <div class="project-tags">
+            <span class="tag">Java</span>
+            <span class="tag">OOP</span>
+          </div>
+          <a href="https://github.com/Asifa-Minahil011/DecodeLabs-Internship" target="_blank" class="btn-outline">View on GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon"><i class="fas fa-gamepad"></i></div>
+          <h3>Brick Breaker Game</h3>
+          <p>Arcade game in Assembly Language (COAL) with ball movement, collision detection, and paddle control at hardware level. Deep dive into CPU registers and memory handling.</p>
+          <div class="project-tags">
+            <span class="tag">Assembly</span>
+            <span class="tag">COAL</span>
+          </div>
+          <a href="https://github.com/Asifa-Minahil011/DecodeLabs-Internship" target="_blank" class="btn-outline">View on GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon"><i class="fas fa-people-group"></i></div>
+          <h3>Two-Player Xonix-Style Game</h3>
+          <p>Two-player arcade game with area capturing, collision detection, and scoring. Built with C++ and SFML using encapsulation, inheritance, and modular class design.</p>
+          <div class="project-tags">
+            <span class="tag">C++</span>
+            <span class="tag">SFML</span>
+            <span class="tag">OOP</span>
+          </div>
+          <a href="https://github.com/Asifa-Minahil011/DecodeLabs-Internship" target="_blank" class="btn-outline">View on GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon"><i class="fas fa-skull"></i></div>
+          <h3>Enemies Game</h3>
+          <p>2D game with multiple enemy types using distinct behaviors via inheritance and polymorphism. Includes movement, collision detection, health system, and scoring.</p>
+          <div class="project-tags">
+            <span class="tag">C++</span>
+            <span class="tag">OOP</span>
+            <span class="tag">Polymorphism</span>
+          </div>
+          <a href="https://github.com/Asifa-Minahil011/DecodeLabs-Internship" target="_blank" class="btn-outline">View on GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon"><i class="fas fa-cart-shopping"></i></div>
+          <h3>SmartGrocery Platform</h3>
+          <p>IEEE 29148-compliant SRS for a grocery delivery platform covering 82 requirements, UML modeling, peer validation, and COCOMO II effort estimation.</p>
+          <div class="project-tags">
+            <span class="tag">SRS</span>
+            <span class="tag">IEEE</span>
+            <span class="tag">UML</span>
+          </div>
+          <a href="https://github.com/Asifa-Minahil011/DecodeLabs-Internship" target="_blank" class="btn-outline">View on GitHub</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2 class="section-title">My Skills</h2>
+      <p class="section-subtitle">Technologies & tools I work with</p>
+      <div class="skills-grid">
+        <div class="skill-card"><span class="skill-icon"><i class="fab fa-html5"></i></span><p>HTML5</p></div>
+        <div class="skill-card"><span class="skill-icon"><i class="fab fa-css3-alt"></i></span><p>CSS3</p></div>
+        <div class="skill-card"><span class="skill-icon"><i class="fab fa-js"></i></span><p>JavaScript</p></div>
+        <div class="skill-card"><span class="skill-icon"><i class="fas fa-code"></i></span><p>C++</p></div>
+        <div class="skill-card"><span class="skill-icon"><i class="fab fa-java"></i></span><p>Java</p></div>
+        <div class="skill-card"><span class="skill-icon"><i class="fas fa-microchip"></i></span><p>Assembly</p></div>
+        <div class="skill-card"><span class="skill-icon"><i class="fas fa-cubes"></i></span><p>OOP</p></div>
+        <div class="skill-card"><span class="skill-icon"><i class="fas fa-diagram-project"></i></span><p>UML</p></div>
+        <div class="skill-card"><span class="skill-icon"><i class="fab fa-github"></i></span><p>Git & GitHub</p></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-subtitle">Have a project in mind? Let's talk!</p>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <p><i class="fas fa-envelope"></i> asifa273639@gmail.com</p>
+          <p><i class="fas fa-location-dot"></i> Islamabad, Pakistan</p>
+          <p><i class="fab fa-github"></i> <a href="https://github.com/Asifa-Minahil011/DecodeLabs-Internship" target="_blank">github.com/Asifa-Minahil011</a></p>
+          <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/asifa-minahil-823445363" target="_blank">linkedin.com/in/asifa-minahil</a></p>
+        </div>
+        <div class="contact-form">
+          <input type="text" id="name" placeholder="Your Name" aria-label="Your Name"/>
+          <input type="email" id="email" placeholder="Your Email" aria-label="Your Email"/>
+          <textarea id="message" rows="5" placeholder="Your Message" aria-label="Your Message"></textarea>
+          <button class="btn-primary" onclick="sendMessage()">Send Message</button>
+          <p id="form-feedback" class="form-feedback"></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <p class="footer-logo">Asifa Minahil</p>
+      <div class="social-links">
+        <a href="https://github.com/Asifa-Minahil011/DecodeLabs-Internship" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/asifa-minahil-823445363" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </div>
+      <p class="footer-copy">© 2026 Asifa Minahil. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
